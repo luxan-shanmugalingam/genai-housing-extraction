@@ -1,0 +1,21 @@
+# API Keys / Secrets
+HF-KEY.txt
+
+# Large Data & Models (Excluded for Portfolio clarity)
+*.csv
+*.pkl
+*.txt
+*.json
+
+# Allow specific small JSON/CSVs if needed by the app
+!model_features.json
+!location_sorted.json
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+*.pyc
+
+# Duplicates
+*Copy*
